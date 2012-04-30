@@ -1,5 +1,8 @@
-# Wird beim Autologin gestartet #
-
 #!/bin/bash
+cd /var/www/bilder/
+while true
+do
+ pics="$( cat /var/www/bilder_sfw)" 
+ fbi -u -T vt01 -t 10 --autodown --noverbose $pics
+done
 
-fbi -u -T vt01 -t 10 --autodown --noverbose /home/moria/bilder/*
