@@ -1,7 +1,0 @@
-This Scripts are porwering our Fordpad (kind of a picture Frame) @CCCMZ in Wiesbaden
-Feel Free to Use, Share & Modify
-
-ATM these Scripts are a Work in Progress I can't guarantee that everything is working.
-(Some files are modifyed without testing or they are missing)
-Copy all Files to your root Directory Files gonna be in the right Place, and edit 
-your favorite Webserver Config to allow the CGI Scripts located at /usr/local/pad/cgi-bin/
